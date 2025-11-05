@@ -9,6 +9,7 @@
 - [Mask 和 RectMask2D](#Mask-和-RectMask2D)
     - [Mask](#Mask)
     - [MaskRect2D](#MaskRect2D)
+- [分析工具](#分析工具)
 - [优化建议](#优化建议)
 - [参考文献](#参考文献)
 
@@ -194,6 +195,10 @@ RectMask2D 不需要依赖 Image 组件，其裁剪区域就是它的 RectTransf
 - 当界面只有一个 Mask 时，RectMask2D 优于 Mask
 - 当有两个 Mask，两者差不多
 - 当大于两个 Mask，Mask 优于 RectMask2D
+
+## 分析工具
+
+[UGUI合批分析工具：UIBatchAnalyzer](https://github.com/simplex86/UIBatchAnalyzer)
 
 ## 优化建议
 
